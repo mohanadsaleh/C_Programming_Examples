@@ -122,7 +122,7 @@ void kayit_goster(struct ogrenci* bas) {
 }
 
 void ada_gore_ara(struct ogrenci* bas, char* name) {
-//*Aranacak öðrenci no girilecek ve uyan kayýt varsa tüm bilgisi listelenece
+//*Aranacak Ã¶ÄŸrenci no girilecek ve uyan kayÄ±t varsa tÃ¼m bilgisi listelenece
     if (bas == NULL) {
         printf("Kayit bulunamadi.\n");
         return;
@@ -142,7 +142,7 @@ void ada_gore_ara(struct ogrenci* bas, char* name) {
 }
 
 void numaraya_gore_ara(struct ogrenci* bas, int numara) {
-	//Aranacak isim girilecek ve uyan kayýtlarýn hepsi listelenecek
+	//Aranacak isim girilecek ve uyan kayÄ±tlarÄ±n hepsi listelenecek
     if (bas == NULL) {
         printf("Kayit bulunamadi.\n");
         return;
@@ -165,7 +165,7 @@ void numaraya_gore_ara(struct ogrenci* bas, int numara) {
 }
 
 void listLess(struct ogrenci* bas) {
-	// listede baþarý notu 60’ýn altýnda olan öðrencileri listeden silecektir.
+	// listede baÅŸarÄ± notu 60â€™Ä±n altÄ±nda olan Ã¶ÄŸrencileri listeden silecektir.
     struct ogrenci* temp = bas;
     if (temp == NULL)
         printf("Kayit Yok\n");
@@ -182,7 +182,7 @@ void listLess(struct ogrenci* bas) {
 }
 
 void updateAhmet(struct ogrenci* bas) {
-	//“Ahmet” olan tüm kayýtlarý “AHMET” olarak güncelleyecek.
+	//â€œAhmetâ€ olan tÃ¼m kayÄ±tlarÄ± â€œAHMETâ€ olarak gÃ¼ncelleyecek.
     struct ogrenci* temp = bas;
     if (temp == NULL) {
     	printf("------------------------------------------\n");
@@ -201,7 +201,7 @@ void updateAhmet(struct ogrenci* bas) {
 
 void exchange(struct ogrenci* bas) {
 	
-	//e listede yer alan ilk kayýt ile son kaydý yer deðiþtirecektir Fonksiyonu
+	//e listede yer alan ilk kayÄ±t ile son kaydÄ± yer deÄŸiÅŸtirecektir Fonksiyonu
     if (bas == NULL || bas->next == NULL){
     	printf("------------------------------------------\n");
     
